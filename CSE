@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+// Function with one argument
+void show(int a) {
+    cout << "One Argument: " << a << endl;
+}
+
+// Function with two arguments
+void show(int a, int b) {
+    cout << "Two Arguments: " << a << ", " << b << endl;
+}
+
+int main() {
+    show(10);        // Calls show(int a)
+    show(10, 20);   // Calls show(int a, int b)
+    return 0;
+}
